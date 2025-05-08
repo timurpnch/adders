@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/sta.dir/app/Main.cc.o -o app/sta  sta_swig.a app/libOpenSTA.a /usr/lib/x86_64-linux-gnu/libtcl.so /home/timur/cudd-3.0.0/cudd/.libs/libcudd.a /usr/lib/x86_64-linux-gnu/libz.so 

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/timur/cudd-3.0.0/OpenSTA/app/StaApp.i
+tcl/Exception.i
+/home/timur/cudd-3.0.0/OpenSTA/app/tcl/Exception.i
+tcl/StaTclTypes.i
+/home/timur/cudd-3.0.0/OpenSTA/app/tcl/StaTclTypes.i
+dcalc/DelayCalc.i
+/home/timur/cudd-3.0.0/OpenSTA/app/dcalc/DelayCalc.i
+graph/Graph.i
+/home/timur/cudd-3.0.0/OpenSTA/app/graph/Graph.i
+liberty/Liberty.i
+/home/timur/cudd-3.0.0/OpenSTA/app/liberty/Liberty.i
+network/Network.i
+/home/timur/cudd-3.0.0/OpenSTA/app/network/Network.i
+network/NetworkEdit.i
+/home/timur/cudd-3.0.0/OpenSTA/app/network/NetworkEdit.i
+parasitics/Parasitics.i
+/home/timur/cudd-3.0.0/OpenSTA/app/parasitics/Parasitics.i
+power/Power.i
+/home/timur/cudd-3.0.0/OpenSTA/app/power/Power.i
+sdc/Sdc.i
+/home/timur/cudd-3.0.0/OpenSTA/app/sdc/Sdc.i
+sdf/Sdf.i
+/home/timur/cudd-3.0.0/OpenSTA/app/sdf/Sdf.i
+search/Search.i
+/home/timur/cudd-3.0.0/OpenSTA/app/search/Search.i
+util/Util.i
+/home/timur/cudd-3.0.0/OpenSTA/app/util/Util.i
+spice/WriteSpice.i
+/home/timur/cudd-3.0.0/OpenSTA/app/spice/WriteSpice.i
+verilog/Verilog.i
+/home/timur/cudd-3.0.0/OpenSTA/app/verilog/Verilog.i
+

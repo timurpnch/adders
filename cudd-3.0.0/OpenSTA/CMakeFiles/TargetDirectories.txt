@@ -1,0 +1,11 @@
+/home/timur/cudd-3.0.0/OpenSTA/CMakeFiles/sta_swig.dir
+/home/timur/cudd-3.0.0/OpenSTA/CMakeFiles/sta_swig_swig_compilation.dir
+/home/timur/cudd-3.0.0/OpenSTA/CMakeFiles/OpenSTA.dir
+/home/timur/cudd-3.0.0/OpenSTA/CMakeFiles/sta.dir
+/home/timur/cudd-3.0.0/OpenSTA/CMakeFiles/sta_tags.dir
+/home/timur/cudd-3.0.0/OpenSTA/CMakeFiles/edit_cache.dir
+/home/timur/cudd-3.0.0/OpenSTA/CMakeFiles/rebuild_cache.dir
+/home/timur/cudd-3.0.0/OpenSTA/CMakeFiles/list_install_components.dir
+/home/timur/cudd-3.0.0/OpenSTA/CMakeFiles/install.dir
+/home/timur/cudd-3.0.0/OpenSTA/CMakeFiles/install/local.dir
+/home/timur/cudd-3.0.0/OpenSTA/CMakeFiles/install/strip.dir

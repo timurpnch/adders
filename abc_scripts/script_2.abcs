@@ -1,0 +1,17 @@
+strash;
+&get -n;
+&fraig -x;
+&put;
+scorr;
+dc2;
+dretime;
+strash;
+&get -n;
+&dch -f;
+&nf -D 500;
+&put;
+buffer;
+upsize -D 500;
+dnsize -D 500;
+stime -p;
+

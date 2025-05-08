@@ -1,0 +1,7 @@
+strash;
+&get -n;
+&nf -D 500;
+&put;
+buffer;
+stime -p;
+
