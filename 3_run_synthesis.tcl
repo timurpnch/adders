@@ -9,10 +9,10 @@ set constr asap7/asap7.constr
 set abc_scripts_dir abc_scripts
 
 # путь до директории с верилог-кодом
-set input_dir bitwidth_$bit_width
+set input_dir $bit_width
 
 # куда сохраняем результаты
-set logs_dir bitwidth_${bit_width}_output
+set logs_dir ${bit_width}_output
 
 set top_name "adder"
 
