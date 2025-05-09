@@ -1,0 +1,51 @@
+{
+   "creator": "Yosys 0.33 (git sha1 2584903a060)",
+   "invocation": "stat -liberty asap7/asap7sc7p5t_SIMPLE_SEQ.lib -json ",
+   "modules": {
+      "\\adder": {
+         "num_wires":         21,
+         "num_wire_bits":     33,
+         "num_pub_wires":     4,
+         "num_pub_wire_bits": 16,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         23,
+         "area":              2.143260,
+         "num_cells_by_type": {
+            "AND2x2_ASAP7_75t_L": 2,
+            "INVxp33_ASAP7_75t_L": 2,
+            "MAJIxp5_ASAP7_75t_L": 3,
+            "NAND2xp33_ASAP7_75t_L": 2,
+            "NOR2xp33_ASAP7_75t_L": 3,
+            "NOR3xp33_ASAP7_75t_L": 2,
+            "OR3x1_ASAP7_75t_L": 1,
+            "XNOR2xp5_ASAP7_75t_L": 7,
+            "XOR2xp5_ASAP7_75t_L": 1
+         }
+      }
+   },
+      "design": {
+         "num_wires":         21,
+         "num_wire_bits":     33,
+         "num_pub_wires":     4,
+         "num_pub_wire_bits": 16,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         23,
+         "area":              2.143260,
+         "num_cells_by_type": {
+            "AND2x2_ASAP7_75t_L": 2,
+            "INVxp33_ASAP7_75t_L": 2,
+            "MAJIxp5_ASAP7_75t_L": 3,
+            "NAND2xp33_ASAP7_75t_L": 2,
+            "NOR2xp33_ASAP7_75t_L": 3,
+            "NOR3xp33_ASAP7_75t_L": 2,
+            "OR3x1_ASAP7_75t_L": 1,
+            "XNOR2xp5_ASAP7_75t_L": 7,
+            "XOR2xp5_ASAP7_75t_L": 1
+         }
+      }
+}
+

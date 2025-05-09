@@ -230,7 +230,7 @@ def spcr_to_verilog(spcr_nodes: List[SPCRNode], bit_width: int, module_name="add
 if __name__ == "__main__":
     bit_width = BITWIDTH
     openai_api_key = OPENAI_API_KEY
-    verilog_filename = f"bitwidth_{bit_width}/llm_adder_{bit_width}.v"
+    verilog_filename = f"llm_bitwidth_{bit_width}/llm_adder_{bit_width}.v"
     spcr_nodes = iterative_spcr_synthesis_with_dse(bit_width, openai_api_key)
     verilog_code = spcr_to_verilog(spcr_nodes, bit_width)
 

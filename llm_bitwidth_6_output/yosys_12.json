@@ -1,0 +1,41 @@
+{
+   "creator": "Yosys 0.33 (git sha1 2584903a060)",
+   "invocation": "stat -liberty asap7/asap7sc7p5t_SIMPLE_SEQ.lib -json ",
+   "modules": {
+      "\\adder": {
+         "num_wires":         14,
+         "num_wire_bits":     29,
+         "num_pub_wires":     4,
+         "num_pub_wire_bits": 19,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         17,
+         "area":              2.187000,
+         "num_cells_by_type": {
+            "AND2x2_ASAP7_75t_L": 1,
+            "MAJx2_ASAP7_75t_L": 5,
+            "XNOR2xp5_ASAP7_75t_L": 10,
+            "XOR2xp5_ASAP7_75t_L": 1
+         }
+      }
+   },
+      "design": {
+         "num_wires":         14,
+         "num_wire_bits":     29,
+         "num_pub_wires":     4,
+         "num_pub_wire_bits": 19,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         17,
+         "area":              2.187000,
+         "num_cells_by_type": {
+            "AND2x2_ASAP7_75t_L": 1,
+            "MAJx2_ASAP7_75t_L": 5,
+            "XNOR2xp5_ASAP7_75t_L": 10,
+            "XOR2xp5_ASAP7_75t_L": 1
+         }
+      }
+}
+

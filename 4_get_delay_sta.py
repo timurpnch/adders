@@ -1,8 +1,15 @@
 import os
+import sys
 from pathlib import Path
 from constants import BITWIDTH
 
-dir_in = f'bitwidth_{BITWIDTH}_output'
+
+opt_arg = sys.argv[1] if len(sys.argv) > 1 else None
+
+if not opt_arg:
+    dir_in = f'bitwidth_{BITWIDTH}_output'
+else:
+    dir_in = f'{opt_arg}_{BITWIDTH}_output'
 
 
 liberty_path = '/home/timur/adders/asap7/asap7sc7p5t_SIMPLE_SEQ.lib'

@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 import subprocess
+import sys
 
 
 adder_tb_content = """
@@ -64,8 +65,10 @@ module adder_tb;
 endmodule
 """
 
+opt_arg = sys.argv[1] if len(sys.argv) > 1 else None
+
 for n in range(2, 7):
-    data_dir = f'bitwidth_{n}'
+    data_dir = f'bitwidth_{n}' if not opt_arg else f'{opt_arg}_{n}'
 
     print(data_dir)
 
